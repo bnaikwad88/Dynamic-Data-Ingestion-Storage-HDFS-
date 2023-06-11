@@ -1,7 +1,7 @@
 # Dynamic Data Ingestion and Storage in HDFS using a Configurable Script
 
 ## Technologies :
-**Big Data, Python/PySpark, HDFS,HIVE, Data Migration, Data Transformation, Data Warehousing,SQL,ETL**
+**Python, API, HDFS, Hive**
 
 ## Objective :
 The goal of this task is to fetch data from https://www2.census.gov/programs-surveys/popest/datasets/ , store it in HDFS, and create a Hive table to view the data. The first step is to verify that you have access to the link and are able to download the data. Next, you will need to determine the format of the data and, if it is in a structured format, determine the schema. Then, you can use a tool like wget or curl to download the data directly from the link and use the HDFS command line interface to store it in HDFS. Finally, you will create a Hive table and load the data into the table. You can then view the data in the table and verify that it has been correctly loaded. As an optional step, you can create a script to automate this process so that you can easily refresh the data in the Hive table as new data becomes available.
