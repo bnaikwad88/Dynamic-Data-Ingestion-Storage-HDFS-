@@ -65,6 +65,28 @@ with open(hive_commands_file, "w") as file:
 # Step 5: Launch Hive shell and execute commands from file
 hive_shell_command = f"hive -f {hive_commands_file}"
 subprocess.run(hive_shell_command, shell=True)
-'''
-
+```
 ## Screenshots
+### hive_commands.hql and hadoop_hive.py in the project_3 folder
+![project3folder](https://github.com/bnaikwad88/Dynamic-Data-Ingestion-Storage-HDFS-/assets/116859424/fb8cdc9e-e29d-45dd-9196-f616039b493a)
+
+### hadoop up and running
+![hdfs_up](https://github.com/bnaikwad88/Dynamic-Data-Ingestion-Storage-HDFS-/assets/116859424/4780b3a1-1387-4200-a837-fb2059b34c7f)
+
+### hadoop web UI(file not inserted yet)
+![hdfs_web](https://github.com/bnaikwad88/Dynamic-Data-Ingestion-Storage-HDFS-/assets/116859424/85b45049-2fe8-40be-8158-be913be1f0d1)
+
+### hadoop_hive.py results
+![hadoop_hive_results](https://github.com/bnaikwad88/Dynamic-Data-Ingestion-Storage-HDFS-/assets/116859424/953ba91d-5e57-45ad-93eb-43b80888a3f8)
+
+### file downloaded to local
+![allfiles](https://github.com/bnaikwad88/Dynamic-Data-Ingestion-Storage-HDFS-/assets/116859424/c6292f82-95b5-49e6-bac2-25ee769bbee8)
+
+### file uploaded to hadoop
+![hdfs_file_inserted](https://github.com/bnaikwad88/Dynamic-Data-Ingestion-Storage-HDFS-/assets/116859424/ac4ce7cb-fa2d-4e06-9b70-accd02aa7234)
+
+### my_table in hive database queried
+![hive_data_inserted](https://github.com/bnaikwad88/Dynamic-Data-Ingestion-Storage-HDFS-/assets/116859424/aa0c1bc6-3213-49c0-b0cb-72ba42ce9202)
+
+
+
