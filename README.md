@@ -19,6 +19,7 @@ The goal of this task is to fetch data from https://www2.census.gov/programs-sur
 ## Results:
 The result of following the above approach should be that you have successfully fetched data from the link https://www2.census.gov/programs-surveys/popest/datasets/, stored it in HDFS, and created a Hive table to view the data. You should be able to view the data in the Hive table and verify that it has been correctly loaded. If you have created a script to automate the process, you should be able to easily refresh the data in the Hive table as new data becomes available at the link.
 ## Source code(hadoop_hive.py)
+```python 
 import csv
 import subprocess
 import os
@@ -64,8 +65,6 @@ with open(hive_commands_file, "w") as file:
 # Step 5: Launch Hive shell and execute commands from file
 hive_shell_command = f"hive -f {hive_commands_file}"
 subprocess.run(hive_shell_command, shell=True)
-```python
-
 '''
 
 ## Screenshots
